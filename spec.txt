@@ -1,0 +1,53 @@
+MKD 
+Version 0.1.0
+Created by Salay Abdul Muhaimin Kanton
+All rights reserved.
+
+Next Page Animation
+
+When the next button is clicked, reset the duaId in the sessionStorage by adding 1 to the duaId. And update the page with json data with the id in the dua.json.
+Can I create a python server to run a specific local website?
+
+Give some padding to sides of the text
+stop the player when next/previous btn is clicked
+
+# 
+
+create a python script which when run opens a server on localhost in the context of the folder that it is in. So when I navigate to localhost:3456/hi.html it opens the website
+
+
+Audio rerecord Problems: (0-79)
+#8
+#13 
+#17
+
+
+
+I want set the same duaId of each card in to data-set variable so that when the card is clicked, it sets the duaID in session storage and navigate to duas.html with the right dua on card click.
+      fetch("duas.json")
+        .then((response) => response.json())
+        .then((data) => {
+          duas = data.map((dua) => {
+            const duaData = data[duaId];
+            const card = duaTemplate.content.cloneNode(true).children[0];
+
+            const image = card.querySelector("[data-image]");
+            const title = card.querySelector("[data-title]");
+
+            title.textContent = dua.title;
+            image.src = "images/" + duaId + ".jpg";
+
+            duaId++;
+            duaCardsCont.append(card);
+            return {
+              title: dua.title,
+              element: card,
+              image: "images/" + duaId + ".jpg",
+            };
+          });
+        });
+
+
+
+Data is fetched and placed in cards, for each card data-dua-id is set. 
+Now I would want to add that for each card when clicked get the corresponding data-dua-id store and set it to sessionStorage

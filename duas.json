@@ -1,0 +1,562 @@
+[
+    {
+        "id": "1",
+        "title" : "When waking up",
+        "arabic" : "images/a0.jpg",
+        "transliteration" : "Alhamdu lilahil-lathee ahyana ba'da ma amatana wa-ilayhin-nushoor.",
+        "translation" : "All praise is for Allah who gave us life after having taken it from us and unto him is the resurrection."
+    },
+    {
+        "id": "2",
+        "title" : "When wearing a garment",
+        "arabic" : "images/a1.jpg",
+        "transliteration" : "Alhamdu lilahil-lathee kasanee hatha (aththawb) warazaqaneehi min ghayri hawlin minnee wala quwwah.",
+        "translation" : "All praise is for Allah who has clothed me with this garment and provided it for me, with no power nor might from myself."
+    },
+    {
+        "id": "3",
+        "title" : "When wearing a new garment",
+        "arabic" : "images/a2.jpg",
+        "transliteration" : "Allahumma lakal-hamdu anta kasawtaneeh as-aluka min khayrihi wakhayri ma suni'a lah, wa-'Aoothu bika min sharri washarri ma suni'a lah.",
+        "translation" : "O Allah, for you is all praise, You have clothed me with it (i.e. the garment), I ask You for the good of it and the good for which it was made, and I seek refuge with You from the evil of it and the evil for which it was made."
+    },
+    {
+        "id": "4",
+        "title" : "To someone wearing a new garment",
+        "arabic" : "images/a3.jpg",
+        "transliteration" : "Tublee wayukhliful-lahu ta'ala.",
+        "translation" : "May you wear it out and Allah replace it (with another)."
+    },
+    {
+        "id": "5",
+        "title" : "Before undressing",
+        "arabic" : "images/a4.jpg",
+        "transliteration" : "Bismi-lah",
+        "translation" : "In the name of Allah."
+    },
+    {
+        "id": "6",
+        "title" : "Before entering the toilet",
+        "arabic" : "images/a5.jpg",
+        "transliteration" : "(Bismi-lah) allahumma innee 'Aoothu bika minal-khubthi wal-khaba-ith.",
+        "translation" : "[In the name of Allah] O Allah, I take refuge with you from all evil and evil-doers"
+    },
+    {
+        "id": "7",
+        "title" : "After leaving the toilet",
+        "arabic" : "images/a6.jpg",
+        "transliteration" : "Ghufranak.",
+        "translation" : "I ask You (Allah) for forgiveness."
+    },
+    {
+        "id": "8",
+        "title" : "When starting ablution",
+        "arabic" : "images/a7.jpg",
+        "transliteration" : "Bismi-lah",
+        "translation" : "In the name of Allah."
+    },
+    {
+        "id": "9",
+        "title" : "Upon completing the ablution",
+        "arabic" : "images/a9.jpg",
+        "transliteration" : "Ashhadu an la ilaha illal-lahu wahdahu la shareeka lah, wa-ashhadu anna Muhammadan 'abduhu warasooluh.",
+        "translation" : "I bear witness that none has the right to be worshipped except Allah, alone without partner, and I bear witness that Muhammad is His slave and Messenger."
+    },
+    {
+        "id": "10",
+        "title" : "When leaving the home",
+        "arabic" : "title",
+        "transliteration" : "Bismil-lah, tawakkaltu 'alal-lah, wala hawla walaquwwata illa billah.",
+        "translation" : "In the name of Allah, I place my trust in Allah, and there is no might nor power except with Allah."
+    },
+    {
+        "id": "11",
+        "title" : "Upon entering the home",
+        "arabic" : "title",
+        "transliteration" : "Bismil-lahi walajna, wabismil-lahi kharajna, wa'ala rabbina tawakkalna.",
+        "translation" : "In the name of Allah we enter and in the name of Allah we leave, and upon our Lord we place our trust."
+    },
+    {
+        "id": "12",
+        "title" : "When going to the mosque",
+        "arabic" : "title",
+        "transliteration" : "Allaahumma jal fee qalbee nooran, wa fee lisaaanee nooran, wa fee same nooran, wa fee basaree nooran, wa min fawqee nooran, wa min tahtee nooran, wa 'an yameenee nooran, wa 'an shimaalee nooran, wa min 'amaamee nooran, wa min khalfee nooran, wajalfee nafsee nooran, wa 'adhim lee nooran, wa 'adhdhim lee nooran, wafal lee nooran, waj'alnee nooran, Allaahumma a'tinee nooran, wajial fee 'asabee nooran, wafee lahmee nooran, wafee damee nooran, wa fee sha'ree nooran, wa fee basharee nooran.",
+        "translation" : "O Allah, place within my heart light, and upon my tongue light, and within my ears light, and within my eyes light, and place behind me light and in front of me light and above me light and beneath me light. O Allah, bestow upon me light."
+    },
+    {
+        "id": "13",
+        "title" : "Upon entering the mosque",
+        "arabic" : "title",
+        "transliteration" : "'Aoothu billahil-'atheem wabiwajhihil-kareem wasultanihil-qadeem minash-shaytanir-rajeem, [bismil-lah, wassalatu] [wassalamu 'ala rasoolil-lah] , allahumma iftah lee abwaba rahmatik.",
+        "translation" : "I take refuge with Allah, The Supreme and with His Noble Face, and His eternal authority from the accursed devil. In the name of Allah, and prayers and peace be upon the Messenger of Allah. O Allah, open the gates of Your mercy for me."
+    },
+    {
+        "id": "14",
+        "title" : "Upon leaving the mosque",
+        "arabic" : "title",
+        "transliteration" : "Bismil-lah wassalatu wassalamu 'ala rasoolil-lah, allahumma innee as-aluka min fadlik, allahumma i'simnee minash-shaytanir-rajeem.",
+        "translation" : "In the name of Allah, and prayers and peace be upon the Messenger of Allah. O Allah, I ask You from Your favour. O Allah, guard me from the accursed devil."
+    },
+    {
+        "id": "15",
+        "title" : "Concerning the athan (the call to prayer)",
+        "arabic" : "title",
+        "transliteration" : "Hayya 'alas-salah, hayya 'alal-falah. La hawla wala quwwata illa billah.",
+        "translation" : "One repeats just as the mu-athin (one who calls to prayer) says, except when he says : 'come to prayer, come to success'. Instead, one should say : 'There is no might nor power except with Allah'."
+    },
+    {
+        "id": "16",
+        "title" : "After the call to prayer",
+        "arabic" : "title",
+        "transliteration" : "Allahumma rabba hathihid-d'Awatit-tammah, wassalatil-qa-imah ati Muhammadan alwaseelata wal-fadeelah, wab'ath-hu maqaman mahmoodan allathee w'dtah, innaka la tukhliful-mee'ad.",
+        "translation" : "O Allah, Owner of this perfect call and Owner of this prayer to be performed, bestow upon Muhammad al-waseelah and al-fadeelah and send him upon a praised platform which You have promised him. Verily, You never fail in Your promise."
+    },
+    {
+        "id": "17",
+        "title" : "At the start of the prayer (after takbeer)",
+        "arabic" : "title",
+        "transliteration" : "Subhanakal-lahumma wabihamdika watabarakas-muka wata'ala jadduka wala ilaha ghayruk.",
+        "translation" : "How perfect You are O Allah, and I praise You. Blessed be Your name, and lofty is Your position and none has the right to be worshipped except You."
+    },
+    {
+        "id": "18",
+        "title" : "While bowing in prayer",
+        "arabic" : "title",
+        "transliteration" : "Subhana rabbiyal-'atheem (x3)",
+        "translation" : "How perfect my Lord is, The Supreme. (three times)"
+    },
+    {
+        "id": "19",
+        "title" : "Upon rising from the bowing position",
+        "arabic" : "title",
+        "transliteration" : "Samial-lahu liman hamidah. Rabbana walakal-hamdu hamdan katheeran tayyiban mubarakan feeh.",
+        "translation" : "May Allah answer he who praises Him [This supplication is to be made while rising]. Our Lord, for You is all praise, an abundant beautiful blessed praise."
+    },
+    {
+        "id": "20",
+        "title" : "While prostrating",
+        "arabic" : "title",
+        "transliteration" : "Subhana rabbiyal-a'la. (x3)",
+        "translation" : "How perfect my Lord is, The Most High. (three times)"
+    },
+    {
+        "id": "21",
+        "title" : "Between the two prostrations",
+        "arabic" : "title",
+        "transliteration" : "Rabbigh-fir lee, rabbigh-fir lee.",
+        "translation" : "My Lord forgive me, My Lord forgive me."
+    },
+    {
+        "id": "22",
+        "title" : "When prostrating due to the recitation of the Qur'an",
+        "arabic" : "title",
+        "transliteration" : "Sajada wajhee lillathee khalaqahu washaqqa sam'ahu wabasarahu bihawlihi waquwwatih {fatabaraka Allahu ahsanu alkhaliqeen}.",
+        "translation" : "My face fell prostrate before He who created it and brought forth its faculties of hearing and seeing by His might and power. (So Blessed is Allah, the best of creators)."
+    },
+    {
+        "id": "23",
+        "title" : "The Tashahud",
+        "arabic" : "title",
+        "transliteration" : "Attahiyyatu lillahi wassalawatu wattayyibat, assalamu 'alayka ayyuhan-nabiyyu warahmatul-lahi wabarakatuh, assalamu 'alayna wala 'ibadil-lahis-saliheen. Ash-hadu an la ilaha illal-lah, wa-ashhadu anna Muhammadan 'abduhu warasooluh.", 
+        "translation" : "At-tahiyyat is for Allah. All acts of worship and good deeds are for Him. Peace and the mercy and blessings of Allah be upon you O Prophet. Peace be upon us and all of Allah's righteous servants. I bear witness that none has the right to be worshipped except Allah and I bear witness that Muhammad is His slave and Messenger."
+    },
+    {
+        "id": "24",
+        "title" : "Prayers upon the Prophet (saws) after the tashahhud",
+        "arabic" : "title",
+        "transliteration" : "Allahumma salli 'ala Muhammad, wa-ala ali Muhammad, kama sallayta 'ala Ibraheema wa-ala ali Ibraheem, innaka Hameedun Majeed, allahumma barik 'ala Muhammad, wa-ala ali Muhammad, kama barakta 'ala Ibraheema wa-ala ali Ibraheem, innaka Hameedun Majeed.",
+        "translation" : "O Allah, send prayers upon Muhammad and the followers of Muhammad, just as You sent prayers upon Ibraheem and upon the followers of Ibraheem. Verily, You are full of praise and majesty. O Allah, send blessings upon Muhammad and upon the family of Muhammad, just as You sent blessings upon Ibraheem and upon the family of Ibraheem. Verily, You are full of praise and majesty."
+    },
+    {
+        "id": "25",
+        "title" : "After the last tashahud and before salam",
+        "arabic" : "title",
+        "transliteration" : "Allahumma innee aoothu bika min 'athabil-qabr, wamin 'athabi jahannam, wamin fitnatil-mahya walmamat, wamin shari fitnatil-maseehid-dajjal.",
+        "translation" : "O Allah, I take refuge in You from the punishment of the grave, from the torment of the Fire, from the trials and tribulations of life and death and from the evil affliction of Al-Maseeh Ad-Daijal."
+    },
+    {
+        "id": "26",
+        "title" : "After salam",
+        "arabic" : "title",
+        "transliteration" : "Astaghfirul-lah (x3). Allahumma antas-salam waminkas-salam, tabarakta ya thal-jalali wal-ikram.",
+        "translation" : "My Lord forgive me (three times). O Allah, You are As-Salam and from You is all peace, blessed are You, O Possessor of majesty and honour."
+    },
+    {
+        "id": "27",
+        "title" : "For seeking for guidance in forming a decision or choosing the proper course (al-Istikhara)",
+        "arabic" : "title",
+        "transliteration" : "Allahumma innee astakheeruka bi'ilmik, wa-astaqdiruka biqudratik, wa-as-aluka min fadlikal-atheem, fa-innaka taqdiru wala aqdir, wata'lamu wala a''lam ,wa-anta 'allamul ghuyoob, allahumma in kunta ta'lamu anna hathal-amr (say your need) khayrun lee fee deenee wama'ashee wa'agibati amree faqdurhu lee, wayassirhu lee, thumma barik lee feeh, wa-in kunta ta'lamu anna hathal-amr sharrun lee fee deenee wama'ashee wa'agibati amree fasrifhu 'annee wasrifnee 'anh, waqdur liyal-khayra haythu kan, thumma ardinee bih.",
+        "translation" : "O Allah, I seek Your counsel by Your knowledge and by Your power I seek strength and I ask You from Your immense favour, for verily You are able while I am not and verily You know while I do not and You are the Knower of the unseen. O Allah, if You know this affair -and here he mentions his need- to be good for me in relation to my religion, my life, and end, then decree and facilitate it for me, and bless me with it, and if You know this affair to be ill for me towards my religion, my life, and end, then remove it from me and remove me from it, and decree for me what is good wherever it be and make me satisfied with such."
+    },
+    {
+        "id": "28",
+        "title" : "In the morning",
+        "arabic" : "title",
+        "transliteration" : "Asbahna wa-asbahal-mulku lillah walhamdu lillah la ilaha illal-lah, wahdahu Ia shareeka lah, lahul-mulku walahul-hamd, wahuwa ala kulli shayin qadeer, rabbi as-aluka khayra ma fee hatha-alyawmi, wakhayra ma ba'daho, wa-a'oothu bika min sharri hatha-alyawmi, washarri ma badaho, rabbi a'oothu bika minal-kasal, wasoo-il kibar, rabbi aoothu bika min 'athabin fin-nar, waathabin fil-qabr.",
+        "translation" : "We have reached the morning and at this very time unto Allah belongs all sovereignty, and all praise is for Allah. None has the right to be worshipped except Allah, alone, without partner, to Him belongs all sovereignty and praise and He is over all things omnipotent. My Lord, I ask You for the good of this day and the good of what follows it and I take refuge in You from the evil of this day and the evil of what follows it. My Lord, I take refuge in You from laziness and senility. My Lord, I take refuge in You from torment in the Fire and punishment in the grave."
+    },
+    {
+        "id": "29",
+        "title" : "In the evening",
+        "arabic" : "title",
+        "transliteration" : "Amsayna wa-amsal-mulku lillah walhamdu lillah la ilaha illal-lah, wahdahu la shareeka lah, lahul-mulku walahul-hamd, wahuwa 'ala kulli shayin qadeer, rabbi as-aluka khayra ma fee hathihil-laylah, wakhayra ma ba'daha, wa-a'oothu bika min sharri hathihil-laylah, washarri ma ba'daha, rabbi aoothu bika minal-kasal, wasoo-il kibar, rabbi aoothu bika min 'athabin fin-nar, wa'athabin fil-qabr.",
+        "translation" : "We have reached the evening and at this very time unto Allah belongs all sovereignty, and all praise is for Allah. None has the right to be worshipped except Allah, alone, without partner, to Him belongs all sovereignty and praise and He is over all things omnipotent. My Lord, I ask You for the good of this night and the good of what follows it and I take refuge in You from the evil of this night and the evil of what follows it. My Lord, I take refuge in You from laziness and senility. My Lord, I take refuge in You from torment in the Fire and punishment in the grave."
+    },
+    {
+        "id": "30",
+        "title" : "Before sleeping",
+        "arabic" : "title",
+        "transliteration" : "Bismika rabbee wada'tu janbee wabika arfa'uh, fa-in amsakta nafsee farhamha, wa-in arsaltaha fahfathha bima tahfathu bihi 'ibadakas-saliheen.",
+        "translation" : "In Your name my Lord, I lie down and in Your name I rise, so if You should take my soul then have mercy upon it, and if You should return my soul then protect it in the manner You do so with Your righteous servants."
+    },
+    {
+        "id": "31",
+        "title" : "When turning over during the night",
+        "arabic" : "title",
+        "transliteration" : "La ilaha illal-lahul-wahidul-qahhar, rabbus-samawati wama baynahuma, al'azeezul-ghaffar.",
+        "translation" : "None has the right to be worshipped except Allah, The One, AL-Qahhar. Lord of the heavens and the Earth and all between them, The Exalted in Might, The Oft-Forgiving."
+    },
+    {
+        "id": "32",
+        "title" : "Upon experiencing unrest, fear, apprehensiveness... during sleep",
+        "arabic" : "title",
+        "transliteration" : "'Aoothu bikalimatil-lahit-tammat min ghadabih,wa'igabih, washarri 'ibadih, wamin hamazatish-shayateen, wa-an yahduroon.",
+        "translation" : "I take refuge in the perfect words of Allah from His anger and punishment, and from the evil of His servants, and from the madness and appearance of devils."
+    },
+    {
+        "id": "33",
+        "title" : "Upon seeing a good dream or a bad dream",
+        "arabic" : "title",
+        "transliteration" : "'Aoothu billahi minash-shaytanir-rajeem (x3).",
+        "translation" : "Spit on your left three times, seek refuge in Allah from shaytan and the evil of what you saw, do not relate it to anyone, turn and sleep on the opposite side to which you were sleeping on previously."
+    },
+    {
+        "id": "34",
+        "title" : "For anxiety or sorrow",
+        "arabic" : "title",
+        "transliteration" : "Allahumma innee 'abduk, ibnu 'abdik, ibnu amatik, nasiyatee biyadik, madin flyya hukmuk, 'adlun fiyya qada-ok, as-aluka bikulli ismin huwa lak, sammayta bihi nafsak, aw anzaltahu fee kitabik, aw 'allamtahu ahadan min khalqik awis-ta'tharta bihi fee 'ilmil-ghaybi 'indak, an taj'alal-Qurana rabee'a qalbee, wanoora sadree,wajalaa huznee wathahaba hammee.",
+        "translation" : "O Allah, I am Your servant, son of Your servant, son of Your maidservant, my forelock is in Your hand, Your command over me is forever executed and Your decree over me is just. I ask You by every name belonging to You which You named Yourself with, or revealed in Your Book, or You taught to any of Your creation, or You have preserved in the knowledge of the unseen with You, that You make the Qur'an the life of my heart and the light of my breast, and a departure for my sorrow and a release for my anxiety."
+    },
+    {
+        "id": "35",
+        "title" : "For one in distress",
+        "arabic" : "title",
+        "transliteration" : "La ilaha illal-lahul-'atheemul-haleem, la ilaha illal-lahu rabbul-'arshil-'atheem, la ilaha illal-lahu rabbus-samawati warabbul-ardi warabbul-'arshil-kareem.",
+        "translation" : "None has the right to be worshipped except Allah Forbearing. None has the right to be worshipped except Allah, Lord of the magnificent throne. None has the right to be worshipped except Allah, Lord of the heavens, Lord of the Earth and Lord of the noble throne."
+    },
+    {
+        "id": "36",
+        "title" : "When being afraid of a group of people.",
+        "arabic" : "title",
+        "transliteration" : "Allahummak-fineehim bima shi't.",
+        "translation" : "O Allah, protect me from them with what You choose."
+    },
+    {
+        "id": "37",
+        "title" : "For one whose affairs have become difficult",
+        "arabic" : "title",
+        "transliteration" : "Allahumma la sahla illa ma ja'altahu sahla, wa-anta taj'alul-hazana ida shi'ta sahla.",
+        "translation" : "O Allah, there is no ease except in that which You have made easy, and You make the difficulty, if You wish, easy."
+    },
+    {
+        "id": "38",
+        "title" : "Upon commiting a sin",
+        "arabic" : "title",
+        "transliteration" : "",
+        "translation" : "Any servant who commits a sin and as a result, performs ablution, prays two units of prayer and then seeks Allah's forgiveness, Allah would forgive him."
+    },
+    {
+        "id": "39",
+        "title" : "Congratulation on the occasion of a birth",
+        "arabic" : "title",
+        "transliteration" : "Baarakallaahu laka fil-mawhoobi laka, wa shakartal-waahiba, wa balagha 'ashuddahu, wa ruziqta birrahu.",
+        "translation" : "May Allah bless what He allots to you (this child) and may you be grateful to the One who allots him to you. May he (this child) come to maturity and may Allah allot him the good behaviour towards you."
+    },
+    {
+        "id": "40",
+        "title" : "When visiting the sick",
+        "arabic" : "title",
+        "transliteration" : "La ba'sa tahoorun in shaal-lah.",
+        "translation" : "Never mind, may it (the sickness) be a purification, if Allah wills."
+    },
+    {
+        "id": "41",
+        "title" : "For one afflicted by a calamity",
+        "arabic" : "title",
+        "transliteration" : "Inna lillahi wa-inna ilayhi raji'oon, allahummajurnee fee museebatee wakhluf lee khayran minha.",
+        "translation" : "To Allah we belong and unto Him is our return. O Allah, recompense me for my affliction and replace it for me with something better."
+    },
+    {
+        "id": "42",
+        "title" : "Condolence",
+        "arabic" : "title",
+        "transliteration" : "Inna lillahi ma akhath, walahu ma a'ta, wakullu shayin 'indahu bi-ajalin musamma...faltasbir waltahtasib. a'thamal-lahu ajrak, wa-ahsana", 
+        "translation" : "Verily to Allah, belongs what He took and to Him belongs what He gave, and everything with Him has an appointed time...and then he ordered for her to be patient and hope for Allah's reward.(May Allah magnify your reward, make better your solace and forgive your deceased)."
+    },
+    {
+        "id": "43",
+        "title" : "Visiting the graves",
+        "arabic" : "title",
+        "transliteration" : "Assalamu 'alaykum ahlad-diyari minal-mu'mineena walmuslimeen, wa-inna in shaal-lahu bikum lahigoon, nas-alul-laha lana walakumul-'afiyah.",
+        "translation" : "Peace be upon you all, O inhabitants of the graves, amongst the believers and the Muslims. Verily we will, Allah willing, be united with you, we ask Allah for well-being for us and you."
+    },
+    {
+        "id": "44",
+        "title" : "During a wind storm",
+        "arabic" : "title",
+        "transliteration" : "Allahumma innee as-aluka khayraha wa-a'oothu bika min sharriha.",
+        "translation" : "Allah, I ask You for it's goodness and I take refuge with You from it's evil."
+    },
+    {
+        "id": "45",
+        "title" : "Upon hearing thunder",
+        "arabic" : "title",
+        "transliteration" : "Subhanal-lathee yusabbihur-ra'du bihamdih, walmala-ikatu min kheefatih.",
+        "translation" : "How perfect He is, (The One) Whom the thunder declares His perfection with His praise, as do the angels out of fear of Him."
+    },
+    {
+        "id": "46",
+        "title" : "When it rains",
+        "arabic" : "title",
+        "transliteration" : "Allahumma sayyiban nafia.",
+        "translation" : "O Allah, may it be a beneficial rain cloud."
+    },
+    {
+        "id": "47",
+        "title" : "After rainfall",
+        "arabic" : "title",
+        "transliteration" : "Mutirna bifadlil-lahi warahmatih.",
+        "translation" : "We have been given rain by the grace and mercy of Allah."
+    },
+    {
+        "id": "48",
+        "title" : "Upon sighting the cresent moon",
+        "arabic" : "title",
+        "transliteration" : "Allahu akbar, allahumma ahillahu 'alayna bil-amni wal-eeman, wassalamati wal-islam, wattawfeeigi lima tuhibbu rabbana watarda, rabbuna warabbukal-lah.",
+        "translation" : "Allah is the greatest. O Allah, let the crescent loom above us in safety, faith, peace, and Islam, and in agreement with all that You love and pleases You. Our Lord and your Lord is Allah."
+    },
+    {
+        "id": "49",
+        "title" : "Upon breaking fast",
+        "arabic" : "title",
+        "transliteration" : "Thahabath-thama-o wabtallatil-'uroogq, wathabatal-ajru in shaal-lah.",
+        "translation" : "The thirst has gone and the veins are quenched, and reward is confirmed, if Allah wills."
+    },
+    {
+        "id": "50",
+        "title" : "Before eating",
+        "arabic" : "title",
+        "transliteration" : "Bismil-lah. Bismil-lahi fee awwalihi wa-akhirih.",
+        "translation" : "In the name of Allah. |I Dua on forgetting the Dua before eating: In the name of Allah in it's beginning and end."
+    },
+    {
+        "id": "51",
+        "title" : "Upon completing the meal",
+        "arabic" : "title",
+        "transliteration" : "Allahumma lillahi-lathee at'amanee hatha warazaqaneehi min ghayri hawlin minee wala quwwah",
+        "translation" : "All praise is for Allah who fed me this and provided it for me without any might nor power from myself."
+    },
+    {
+        "id": "52",
+        "title" : "Of the guest for the host",
+        "arabic" : "title",
+        "transliteration" : "Allahumma barik lahum feema razaqtahum, waghfir lahum warhamhum.",
+        "translation" : "O Allah, bless for them, that which You have provided them, forgive them and have mercy upon them."
+    },
+    {
+        "id": "53",
+        "title" : "To one offering a drink or to one who intended to do that",
+        "arabic" : "title",
+        "transliteration" : "Allahumma at'im man at'amanee wasqi man saqanee.",
+        "translation" : "O Allah, feed him who fed me, and provide with drink him who provided me with drink."
+    },
+    {
+        "id": "54",
+        "title" : "When breaking fast in someone's home",
+        "arabic" : "title",
+        "transliteration" : "Aftara 'indakumus-sa-imoon, wa-akala ta'amakumul-abrar, wasallat 'alaykumul-mala-ikah.", 
+        "translation" : "May the fasting break their fast in your home, and may the dutiful and pious eat your food, and may the angels send prayers upon you."
+    },
+    {
+        "id": "55",
+        "title" : "When insulted while fasting",
+        "arabic" : "title",
+        "transliteration" : "Innee sa'im, innee sa'im.",
+        "translation" : "I am fasting, I am fasting."
+    },
+    {
+        "id": "56",
+        "title" : "Upon see the early or premature fruit",
+        "arabic" : "title",
+        "transliteration" : "Allahumma barik lana fee thamarina, wabarik lana fee madeenatina, wabarik lana fee sa'ina wabarik lana fee muddina.",
+        "translation" : "O Allah, bless our fruit for us, bless our town for us, bless our saAA for us and bless our mudd for us."
+    },
+    {
+        "id": "57",
+        "title" : "Upon sneezing",
+        "arabic" : "title",
+        "transliteration" : "Alhamdu lillah. Yarhamukal-lah. Yahdeekumul-lahu wayuslihu balakum.",
+        "translation" : "When one of you sneezes he should say :All praise if for Allah and his brother or companion should say to him : May Allah have mercy upon you and the one who sneezed replies back to him : May Allah guide you and rectify your condition."
+    },
+    {
+        "id": "58",
+        "title" : "To the newly wed",
+        "arabic" : "title",
+        "transliteration" : "Barakal-lahu lak, wabaraka 'alayk, wajama'a baynakuma fee khayr.",
+        "translation" : "May Allah bless for you (your spouse) and bless you, and may He unite both of you in goodness."
+    },
+    {
+        "id": "59",
+        "title" : "When angry",
+        "arabic" : "title",
+        "transliteration" : "'Aoothu billahi minash-shaytanir-rajeem.",
+        "translation" : "I take refuge with Allah from the accursed devil."
+    },
+    {
+        "id": "60",
+        "title" : "Upon seeing someone in trial or tribulation",
+        "arabic" : "title",
+        "transliteration" : "Alhamdu lillahil-lathee 'afanee mimmab-talaka bih, wafaddalanee 'ala katheerin mimman khalaga tafdeela.",
+        "translation" : "All praise is for Allah Who saved me from that which He tested you with and Who most certainly favoured me over much of His creation."
+    },
+    {
+        "id": "61",
+        "title" : "At a sitting or a gathering",
+        "arabic" : "title",
+        "transliteration" : "Rabbigh-fir lee watub 'alay, innaka antat-tawwabul-ghafoor.",
+        "translation" : "O my Lord, forgive me and turn towards me (to accept my repentance). Verily You are The Oft-Returning. The Oft-Forgiving."
+    },
+    {
+        "id": "62",
+        "title" : "For the expiation of sins, said at the conclusion of a sitting or gathering",
+        "arabic" : "title",
+        "transliteration" : "Subhanakal-lahumma wabihamdik, ashhadu an la ilaha illa ant, astaghfiruka wa-atoobu ilayk.",
+        "translation" : "How perfect You are O Allah, and I praise You. I bear witness that None has the right to be worshipped except You. I seek Your forgiveness and turn to You in repentance."
+    },
+    {
+        "id": "63",
+        "title" : "To one who does you a favour",
+        "arabic" : "title",
+        "transliteration" : "Jazakal-lahu khayran.",
+        "translation" : "May Allah reward you with goodness."
+    },
+    {
+        "id": "64",
+        "title" : "To one who pronounces his love for you, for Allah's sake",
+        "arabic" : "title",
+        "transliteration" : "Ahabbakal-lathee ahbabtanee lah.",
+        "translation" : "May He, for whom you have loved me, love you."
+    },
+    {
+        "id": "65",
+        "title" : "In favour of the one who says 'Allah bless you' ",
+        "arabic" : "title",
+        "transliteration" : "Wafeeka barakal-lah.",
+        "translation" : "May Allah bless you all."
+    },
+    {
+        "id": "66",
+        "title" : "When mounting any means of transportation",
+        "arabic" : "title",
+        "transliteration" : "Bismil-lah, walhamdu lillah, subhanal-lathee sakhkhara lana hatha wama kunna lahu mugrineen, wainna ila rabbina lamungaliboon, alhamdu lillah, alhamdu lillah, alhamdu lillah, Allahu akbar, Allahu akbar, Allahu akbar, subhanakal-lahumma innee thalamtu nafsee faghfir lee fainnahu la yaghfiruth-thunooba illa ant.",
+        "translation" : "In the name of Allah and all praise is for Allah. How perfect He is, the One Who has placed this (transport) at our service and we ourselves would not have been capable of that, and to our Lord is our final destiny. All praise is for Allah, All praise is for Allah, All praise is for Allah, Allah is the greatest, Allah is the greatest, Allah is the greatest. How perfect You are, O Allah, verily I have wronged my soul, so forgive me, for surely none can forgive sins except You."
+    },
+    {
+        "id": "67",
+        "title" : "For travel",
+        "arabic" : "title",
+        "transliteration" : "Allahu akbar, Allahu akbar, Allahu akbar, subhanal-lathee sakhkhara lana hatha wama kunna lahu mugrineen, wa-inna ila rabbina lamungaliboon, allahumma inna nas-aluka fee safarina hatha albirra wattaqwa, waminal-'amali ma tarda, allahumma hawwin 'alayna safarana hatha, watwi 'anna bu'dah, allahumma antas-sahibu fis-safar, walkhaleefatu fil-ahl, allahumma innee a'oothu bika min wa'tha-is-safar, waka-abatil-manthar, wasoo-il-mungalabi fil-mali wal-ahl.",
+        "translation" : "Allah is the greatest, Allah is the greatest, Allah is the greatest, How perfect He is, The One Who has placed this (transport) at our service, and we ourselves would not have been capable of that, and to our Lord is our final destiny. O Allah, we ask You for birr and taqwa in this journey of ours, and we ask You for deeds which please You. O Allah, facilitate our journey and let us cover it's distance quickly. O Allah, You are The Companion on the journey and The Successor over the family, O Allah, I take refuge with You from the difficulties of travel, from having a change of hearts and being in a bad predicament, and I take refuge in You from an ill fated outcome with wealth and family. [upon returning the same supplication is recited with the following addition :] (We return, repent, worship and praise our Lord)."
+    },
+    {
+        "id": "68",
+        "title" : "Upon entering a town or village",
+        "arabic" : "title",
+        "transliteration" : "Allahumma rabbas-samawatis-sab'i wama athlaln, warabbal-aradeenas-sab'i wama aqlaln, warabbash-shayateeni wama adlaln, warabbar-riyahi wama tharayn, as-aluka khayra hathihil-qaryah, wakhayra ahlilha wakhayra ma feeha, wa-aoothu bika min sharriha washarri ahliha, washarri ma feeha.",
+        "translation" : "O Allah, Lord of the seven heavens and all that they envelop, Lord of the seven earths and all that they carry, Lord of the devils and all whom they misguide, Lord of the winds and all whom they whisk away. I ask You for the goodness of this village, the goodness of its inhabitants and for all the goodness found within it and I take refuge with You from the evil of this village, the evil of its inhabitants and from all the evil found within."
+    },
+    {
+        "id": "69",
+        "title" : "Supplication of the traveller for the resident",
+        "arabic" : "title",
+        "transliteration" : "Astawdi'ukumul-lah, allathee la tadee'u wada-i'uh.",
+        "translation" : "I place you in the trust of Allah, whose trust is never misplaced."
+    },
+    {
+        "id": "70",
+        "title" : "Supplication of the resident for the traveller",
+        "arabic" : "title",
+        "transliteration" : "Astawdi'ul-laha deenak, wa-amanatak, wakhawateema 'amalik.",
+        "translation" : "I place your religion, your faithfulness and the ends of your deeds in the trust of Allah."
+    },
+    {
+        "id": "71",
+        "title" : "While returning from travel",
+        "arabic" : "title",
+        "transliteration" : "Allahu akbar, Allahu akbar, Allahu akbar. La ilaha illal-lahu wahdahu la shareeka lah, lahul-mulku walahul-hamd, wahuwa 'ala kulli shay-in qadeer, ayiboona ta-iboon, 'abidoon, lirabbina hamidoon, sadaqal-lahu wa'dah, wanasara 'abdah, wahazamal-ahzaba wahdah.",
+        "translation" : "Allah is the greatest, Allah is the greatest, Allah is the greatest.None has the right to be worshipped except Allah, alone, without partner. To Him belongs all sovereignty and praise, and He is over all things omnipotent. We return, repent, worship and praise our Lord. Allah fulfilled His promise, aided His Servant, and single-handedly defeated the allies."
+    },
+    {
+        "id": "72",
+        "title" : "When entering the market",
+        "arabic" : "title",
+        "transliteration" : "La ilaha illal-lah, wahdahu Ia shareeka lah, lahul-mulku walahul-hamd, yuhyee wayumeetu wahuwa hayyun la yamoot, biyadihil-khayru wahuwa “ala kulli shayin qadeer.",
+        "translation" : "None has the right to be worshipped except Allah, alone, without partners, to Him belongs all sovereignty and praise. He gives life and causes death, and He is living and does not die. In His hands is all good and He is over all things omnipotent"
+    },
+    {
+        "id": "73",
+        "title" : "What to say upon receiving pleasing news",
+        "arabic" : "title",
+        "transliteration" : "Alhamdu lillahil-lathee bini'matihi tatimmus-salihat.",
+        "translation" : "All Praise is for Allah by whose favour good works are accomplished."
+    },
+    {
+        "id": "74",
+        "title" : "What to say upon receiving displeasing news",
+        "arabic" : "title",
+        "transliteration" : "Alhamdu lillahi 'ala kulli hal.",
+        "translation" : "All Praise is for Allah in all circumstances."
+    },
+    {
+        "id": "75",
+        "title" : "Excellence of spreading the Islamic greeting",
+        "arabic" : "title",
+        "transliteration" : "As-salamu 'alaykum.",
+        "translation" : "As-salamu 'alaykum. (May peace be upon)"
+    },
+    {
+        "id": "76",
+        "title" : "Upon hearing a rooster crow",
+        "arabic" : "title",
+        "transliteration" : "Allahumma innee as-aluka min fadlik.",
+        "translation" : "I ask Allah for his bounty."
+    },
+    {
+        "id": "77",
+        "title" : "Upon hearing the braying of an ass",
+        "arabic" : "title",
+        "transliteration" : "'Aoothu billahi minash-shaytanir-rajeem.",
+        "translation" : "I take refuge with Allah from the accursed devil."
+    },
+    {
+        "id": "78",
+        "title" : "Upon hearing the barking of dogs at night",
+        "arabic" : "title",
+        "transliteration" : "'Aoothu billahi minash-shaytanir-rajeem.",
+        "translation" : "I take refuge with Allah from the accursed devil."
+    },
+    {
+        "id": "79",
+        "title" : "When feeling some pain in the body",
+        "arabic" : "title",
+        "transliteration" : "Bismil-lah (x3). aoothu billahi waqudratih min sharri ma ajidu wa-ohathir. (x7).",
+        "translation" : "Place your hand at the site of the pain and say: In the name of Allah (three times). I take refuge in Allah and within His omnipotence from the evil that I feel and am wary of. (seven times)"
+    },
+    {
+        "id": "80",
+        "title" : "What to say when startled",
+        "arabic" : "title",
+        "transliteration" : "La ilaha illal-lah.",
+        "translation" : "None has the right to be worshipped except Allah!"
+    }
+]

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="shortcut icon" href="images/0.jpg" type="image/jpg" />
+    <title>MKD</title>
+  </head>
+  <body>
+    <main class="site-wrap">
+      <header class="header">
+        <div class="container header-dua d-flex align-items-center">
+          <div id="previous" onclick="prevbtnclick()" title="Previous">
+            <i class="bi bi-arrow-left-circle-fill"></i>
+          </div>
+          <h1><a href="/">MKD</a></h1>
+          <div id="next" onclick="nextbtnclick()" title="Next">
+            <i class="bi bi-arrow-right-circle-fill"></i>
+          </div>
+        </div>
+      </header>
+      <section class="duas-section">
+        <h5 id="title">Title</h5>
+        <img id="image" src="images/0.jpg" alt="Dua Illustration" draggable="false" />
+        <div class="ara-wrapper">
+          <img id="arabic" class="arabic" src="" alt="Arabic Text" draggable="false" />
+        </div>
+        <p id="transliteration"><em>Transliteration</em></p>
+        <p id="translation">Translation</p>
+      </section>
+      <footer id="player" class="player">
+        <div class="controls">
+          <div onclick="playPause()">
+            <i class="bi bi-play-fill" id="playIcon"></i>
+          </div>
+          <div id="stopbtn" onclick="stopblock()">
+            <i class="bi bi-stop-fill"></i>
+          </div>
+        </div>
+        <audio controls id="song"></audio>
+        <input type="range" name="Seek" id="seek" value="0" title="Seek" />
+      </footer>
+    </main>
+    <script defer>
+      let seek = document.getElementById("seek");
+      let song = document.getElementById("song");
+      let playIcon = document.getElementById("playIcon");
+      let stopbtn = document.getElementById("stopbtn");
+
+      let title = document.getElementById("title");
+      let image = document.getElementById("image");
+      let arabic = document.getElementById("arabic");
+      let transliteration = document.getElementById("transliteration");
+      let translation = document.getElementById("translation");
+
+      let nextbtn = document.getElementById("previous");
+      let prevbtn = document.getElementById("next");
+
+      document.addEventListener("keydown", (e) => {
+        playIcon.focus();
+        switch (e.key.toLowerCase()) {
+          case " ":
+          case "k":
+            playPause();
+            break;
+        }
+      });
+      document.addEventListener("keydown", (e) => {
+        switch (e.key.toLowerCase()) {
+          case "s":
+            stopblock();
+            break;
+        }
+      });
+      document.addEventListener("keydown", (e) => {
+        prevbtn.focus();
+        switch (e.key.toLowerCase()) {
+          case "p":
+            prevbtnclick();
+            break;
+        }
+      });
+      document.addEventListener("keydown", (e) => {
+        nextbtn.focus();
+        switch (e.key.toLowerCase()) {
+          case "n":
+            nextbtnclick();
+            break;
+        }
+      });
+      song.onloadedmetadata = function () {
+        seek.max = song.duration;
+        seek.value = song.currentTime;
+      };
+      song.addEventListener("ended", function () {
+        stopblock();
+      });
+      function playPause() {
+        if (playIcon.classList.contains("bi-pause")) {
+          song.pause();
+          playIcon.classList.remove("bi-pause");
+          playIcon.classList.add("bi-play-fill");
+        } else {
+          song.play();
+          playIcon.classList.add("bi-pause");
+          playIcon.classList.remove("bi-play-fill");
+        }
+        this.blur();
+      }
+      function stopblock() {
+        song.pause();
+        song.currentTime = 0;
+        seek.value = 0;
+        playIcon.classList.add("bi-play-fill");
+        this.blur();
+      }
+      if (song.play()) {
+        setInterval(() => {
+          seek.value = song.currentTime;
+        }, 500);
+      }
+      seek.onchange = function () {
+        song.play();
+        song.currentTime = seek.value;
+        playIcon.classList.add("bi-pause");
+        playIcon.classList.remove("bi-play-fill");
+      };
+
+      // Get the current duaId from session storage
+      let duaId = sessionStorage.getItem("duaId") || 0;
+
+      // Load the JSON data from duas.json file
+      fetch("duas.json")
+        .then((response) => response.json())
+        .then((data) => {
+          // Get the specific dua data based on the new duaId
+          const duaData = data[duaId];
+
+          // Populate the page with the dua data
+          title.innerHTML = duaData.title;
+          arabic.src = duaData.arabic;
+          image.src = "images/" + duaId + ".jpg";
+          song.src = "media/" + duaId + ".mp3";
+          translation.innerHTML = duaData.translation;
+          transliteration.innerHTML = duaData.transliteration;
+        });
+      if (duaId == 37) {
+        document.getElementById("player").style.display = "none";
+        song.src = "";
+      }
+
+      function nextbtnclick() {
+        // Increment the duaId by 1
+        stopblock();
+        duaId++;
+
+        if (duaId > 79) {
+          duaId--;
+          window.navigator.vibrate([200, 50, 200]);
+          alert("This is the last dua");
+        }
+        if (duaId == 37) {
+          document.getElementById("player").style.display = "none";
+        } else {
+          document.getElementById("player").style.display = "flex";
+        }
+        // Store the new duaId in session storage
+        sessionStorage.setItem("duaId", duaId);
+
+        // Load the JSON data from duas.json file
+        fetch("duas.json")
+          .then((response) => response.json())
+          .then((data) => {
+            // Get the specific dua data based on the new duaId
+            const duaData = data[duaId];
+
+            // Populate the page with the dua data
+            title.innerHTML = duaData.title;
+            arabic.src = duaData.arabic;
+            image.src = "images/" + duaId + ".jpg";
+            song.src = "media/" + duaId + ".mp3";
+            translation.innerHTML = duaData.translation;
+            transliteration.innerHTML = duaData.transliteration;
+          });
+        this.blur();
+      }
+      function prevbtnclick() {
+        // Decrement the duaId by 1
+        stopblock();
+        duaId--;
+
+        if (duaId < 0) {
+          duaId++;
+          window.navigator.vibrate([200, 50, 200]);
+          alert("This is the first dua");
+        }
+        if (duaId == 37) {
+          document.getElementById("player").style.display = "none";
+        } else {
+          document.getElementById("player").style.display = "flex";
+        }
+
+        // Store the new duaId in session storage
+        sessionStorage.setItem("duaId", duaId);
+
+        // Load the JSON data from duas.json file
+        fetch("duas.json")
+          .then((response) => response.json())
+          .then((data) => {
+            // Get the specific dua data based on the new duaId
+            const duaData = data[duaId];
+
+            // Populate the page with the dua data
+            title.innerHTML = duaData.title;
+            arabic.src = duaData.arabic;
+            image.src = "images/" + duaId + ".jpg";
+            song.src = "media/" + duaId + ".mp3";
+            translation.innerHTML = duaData.translation;
+            transliteration.innerHTML = duaData.transliteration;
+          });
+        this.blur();
+      }
+      // window.navigator.vibrate([200, 50, 200])
+    </script>
+  </body>
+</html>

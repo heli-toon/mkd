@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="shortcut icon" href="images/0.jpg" type="image/jpg" />
+    <title>MKD</title>
+  </head>
+  <body>
+    <main class="site-wrap">
+      <header class="header">
+        <div
+          class="container d-flex align-items-center justify-content-center flex-column"
+        >
+          <h1>MKD</h1>
+          <form action="" class="search d-flex">
+            <input type="search" title="Search" id="search" data-search />
+            <button type="submit" title="Search">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+        </div>
+      </header>
+      <section>
+        <div class="row gy-4" data-dua-cards-cont></div>
+        <template data-dua-template>
+          <div class="card col-lg-3 col-md-4 col-sm-6">
+            <div class="box">
+              <div class="box-wrapper" onclick="handleDua(event)">
+                <img src="images/0.jpg" alt="" data-image id="image" />
+                <h4 data-title id="title"></h4>
+              </div>
+            </div>
+          </div>
+        </template>
+      </section>
+      <footer>
+        <div class="container d-flex align-items-center justify-content-center">
+          <a href="#" title="Information" class="footer-btn"
+            ><i class="bi bi-info-circle"></i
+          ></a>
+        </div>
+        <div class="container d-flex align-items-center justify-content-center">
+          <a href="#" title="Information" class="footer-btn"
+            ><i class="bi bi-share-fill"></i
+          ></a>
+        </div>
+      </footer>
+    </main>
+    <script defer>
+      const duaTemplate = document.querySelector("[data-dua-template]");
+      const duaCardsCont = document.querySelector("[data-dua-cards-cont]");
+      const searchInput = document.querySelector("[data-search]");
+
+      let boxWrapper = document.querySelectorAll("#box-wrapper");
+      sessionStorage.setItem("duaId", 0);
+      let duaId = sessionStorage.getItem("duaId") || 0;
+      let duas = [];
+
+      fetch("duas.json")
+        .then((response) => response.json())
+        .then((data) => {
+          duas = data.map((dua, index) => {
+            const duaData = data[duaId];
+            const card = duaTemplate.content.cloneNode(true).children[0];
+            card.dataset.duaId = index
+
+            const image = card.querySelector("[data-image]");
+            const title = card.querySelector("[data-title]");
+
+            title.textContent = dua.title;
+            image.src = "images/" + duaId + ".jpg";
+
+            duaId++;
+            duaCardsCont.append(card);
+            return {
+              title: dua.title,
+              element: card,
+              image: "images/" + duaId + ".jpg",
+            };
+          });
+        });
+      
+      function handleDua(event) {
+        const card = event.target.closest('.card');
+        const duaId = card.dataset.duaId;
+        sessionStorage.setItem("duaId", duaId);
+        window.location.href = "dua.html";
+      }
+
+      searchInput.addEventListener("input", (e) => {
+        const value = e.target.value.toLowerCase();
+        duas.forEach((dua) => {
+          const isVisible = dua.title.toLowerCase().includes(value);
+          dua.element.classList.toggle("hide", !isVisible);
+        });
+      });
+    </script>
+  </body>
+</html>
